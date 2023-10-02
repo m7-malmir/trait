@@ -5,6 +5,8 @@ include 'hulk.php';
 include 'ironman.php';
 include 'thor.php';
 
+$barton= new Hulk;
+$barton->up();
 
 $hulk= new Hulk;
 $hulk->up();

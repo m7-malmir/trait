@@ -1,5 +1,4 @@
 <?php
-
 class A{
     public $var1=10;
     public function hello(){
