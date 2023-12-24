@@ -13,7 +13,6 @@ trait RobotTrait{
     public function setMaxSpeed($maxRuningSpeed)
     {
         $this->maxRuningSpeed = $maxRuningSpeed;
-
         return $this;
     }
     public function getMaxWalkingTime()
@@ -23,7 +22,6 @@ trait RobotTrait{
     public function setMaxWalkingTime($maxWalkingTime)
     {
         $this->maxWalkingTime = $maxWalkingTime;
-
         return $this;
     }
 }
